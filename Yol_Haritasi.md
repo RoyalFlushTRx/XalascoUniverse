@@ -15,6 +15,7 @@ Durum işaretleri: ✅ bitti · 🔧 sürüyor · 🧪 test aşamasında · ⏳ 
 | Silah aralığı ve savaş kamerası cilası | 🧪 |
 | Oyun içi odak efekti | 🧪 |
 | 20 sınıflık kayıt altyapısı ve sınıf seçim ekranı | 🔧 |
+| Sınıf mekaniği altyapısı (sınıfa özel kaynak barı, sınıf yapıları, durumlar) | 🧪 |
 | Ortak savaş kuralları (PvP katsayısı, kontrol azalması), hareket çekirdeği | ⏳ |
 | Kayıt sistemi v4 (eski karakterler korunarak) | ⏳ |
 
@@ -35,7 +36,7 @@ Durum işaretleri: ✅ bitti · 🔧 sürüyor · 🧪 test aşamasında · ⏳ 
 | 11 | Kundakçı | Alan hasarı | ⏳ 4. dalga |
 | 12 | Yarıkgezer | Hareket desteği | ⏳ 2. dalga |
 | 13 | Vahşi Bağcı | Evcil hayvan uzmanı | ⏳ 3. dalga |
-| 14 | Cryon | Kontrol tankı | ⏳ 1. dalga (ilk yeni sınıf) |
+| 14 | Cryon | Kontrol tankı | 🔧 ilk sürüm sürüyor (1. dalga, ilk yeni sınıf) |
 | 15 | Arbalist | Menzilli DPS | ⏳ 1. dalga |
 | 16 | Tınıcı | Ritim desteği | ⏳ 6. dalga |
 | 17 | Mühürcü | Büyücü / koruyucu | ⏳ 4. dalga |

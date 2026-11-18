@@ -6,6 +6,27 @@ Yeniden eskiye. "Test aşamasında" yazan işler kodda bitmiştir; oyun içi do�
 
 ## 18 Kasım 2026
 
+**İlk yeni sınıf: Cryon** · *test aşamasında*
+- 20 sınıflık yolun ilk yeni sınıfı oyuna girdi. **Cryon**, ısıyı düşmandan çalıp dosta taşıyan buzul kalkanı: bir kontrol tankı.
+- Silahı **Termal Teber**. Göğsünde turuncu **Isı Kalbi**, sırtında soğutma tüpü var.
+- Mana yerine kendi kaynağı var: **Termal Rezerv** (0–100). Ekranda yeni bir bar ve dikey bir cam tüp görünüyor. Rezervi 40–80 arasındaki **Denge Bandı**'nda tutmak sınıfın temel ritmi.
+- İlk yeteneği **Ayaz Kesiği** çalışıyor. Sırada kalan yetenekler, buz duvarı ve **Ayaz Halkası** ultisi var.
+- Görünüm hâlâ işleniyor: teber kalınlaşacak, omuzluklar ve beyaz zırh plakası yenilenecek.
+- Karakter oluşturma ekranı dört sınıfa göre yenilendi: seçili sınıfın kartı açılıp açıklamasını gösteriyor.
+
+| Sınıf seçimi | Termal Rezerv ve Ayaz Kesiği | Sırttaki soğutma tüpü |
+|:---:|:---:|:---:|
+| <img src="Ekran/C13_cryon_select.jpg" alt="Cryon sınıf seçimi"> | <img src="Ekran/C13_cryon_hud.jpg" alt="Cryon savaşta, Termal Rezerv barı"> | <img src="Ekran/C13_cryon_hero_back.jpg" alt="Cryon arkadan"> |
+
+**Yeni sınıflar için ortak altyapı** · *test aşamasında*
+- Her sınıf kendi kaynağını ve kaynak barını taşıyabiliyor.
+- Sınıfların dünyaya koyduğu yapılar (duvar, kule gibi) için ortak bir temel kuruldu.
+- Sınıfların düşmana koyduğu yavaşlatma ve dondurma gibi durumlar için de ortak bir temel var.
+- Speeder, Panzer ve Timex'in görünümü ve sayıları değişmedi. Bu, otomatik testlerle ve eski görüntülerle karşılaştırılarak doğrulandı.
+
+**Kararlılık** · *test aşamasında*
+- Oyun açılırken ara sıra yaşanan ekran kartı çökmesinin kaynağı bulundu: motorun gölge hesabındaki bir hata. Bir gölge ayarıyla önlendi; denemede 20 açılışın hiçbirinde çökme olmadı.
+
 **Yeni ekran görüntüleri: kahramanlar en iyi ekipmanlarıyla**
 - Üç sınıf da en güçlü setleri, mitik silahları ve efsanevi parçalarıyla oyun içinden yeniden fotoğraflandı (ana sayfada **Kahramanlar** bölümü).
 - Oyun içi fotoğraf turu geliştirildi: kahraman kadrajda ortalanıyor, göğüs portresi ve sırttan çekim (kanat / pelerin) eklendi, çekim sırasında motor uyarıları kareye düşmüyor.
