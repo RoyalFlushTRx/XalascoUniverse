@@ -30,6 +30,32 @@ savaşçılar ördü: **Yankılar**. Sen onlardan birisin.
 - **Çok oyunculu:** sunucu otoriteli ağ yapısı, Gameplay Ability System tabanlı savaş.
 - **Görsel:** oyun içi odak efekti (alan derinliği) — Kapalı / Hafif / Sinematik.
 
+## Kahramanlar
+
+Üç sınıf da oyunun en güçlü ekipmanlarıyla: tam set, mitik silah ve efsanevi parçalar. Zırhtaki ışıltı + basma
+seviyesini gösterir: **+9** mor kıvılcım, **+12** altın iz, **+15** kızıl nabız.
+
+**Speeder** · Yıldız Yolu seti +9 · *Yarık Biçen* (mitik teber) · *Seraf Kanatları* (mitik)
+
+| | | |
+|:---:|:---:|:---:|
+| <img src="Ekran/70_vitrin_speeder_crystal.jpg" alt="Speeder, Kristal Vadi gecesi"> | <img src="Ekran/70_vitrin_speeder_dusk.jpg" alt="Speeder, gün batımı"> | <img src="Ekran/70_vitrin_speeder_portrait.jpg" alt="Speeder portresi"> |
+| Kristal Vadi gecesi | Gün batımında Seraf Kanatları | Portre |
+
+**Panzer** · Hiçlik Dövmesi seti +15 · *Entropinin Çekici* (mitik) · *Kızıl Kule Omuzlukları* · *Gece Yolcusu Pelerini*
+
+| | | |
+|:---:|:---:|:---:|
+| <img src="Ekran/70_vitrin_panzer_storm.jpg" alt="Panzer, sonbahar fırtınası"> | <img src="Ekran/70_vitrin_panzer_snow.jpg" alt="Panzer, karlı gece"> | <img src="Ekran/70_vitrin_panzer_portrait.jpg" alt="Panzer portresi"> |
+| Sonbahar fırtınası | Karakolda karlı gece | Portre |
+
+**Timex** · Güneş Nişanı seti +12 · *Son Şafak* (mitik asa) · *Şafak Tacı*
+
+| | | |
+|:---:|:---:|:---:|
+| <img src="Ekran/70_vitrin_timex_dawn.jpg" alt="Timex, şafak"> | <img src="Ekran/70_vitrin_timex_vael.jpg" alt="Timex ve Vael"> | <img src="Ekran/70_vitrin_timex_portrait.jpg" alt="Timex portresi"> |
+| Şafak | Vael'in doğuşu | Kristal Vadi'de portre |
+
 ## Ekran görüntüleri
 
 Hepsi oyun içinden, otomatik fotoğraf turuyla çekildi.

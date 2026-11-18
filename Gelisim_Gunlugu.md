@@ -6,6 +6,14 @@ Yeniden eskiye. "Test aşamasında" yazan işler kodda bitmiştir; oyun içi do�
 
 ## 18 Kasım 2026
 
+**Yeni ekran görüntüleri: kahramanlar en iyi ekipmanlarıyla**
+- Üç sınıf da en güçlü setleri, mitik silahları ve efsanevi parçalarıyla oyun içinden yeniden fotoğraflandı (ana sayfada **Kahramanlar** bölümü).
+- Oyun içi fotoğraf turu geliştirildi: kahraman kadrajda ortalanıyor, göğüs portresi ve sırttan çekim (kanat / pelerin) eklendi, çekim sırasında motor uyarıları kareye düşmüyor.
+
+| Speeder | Panzer | Timex |
+|:---:|:---:|:---:|
+| <img src="Ekran/70_vitrin_speeder_dusk.jpg" alt="Speeder"> | <img src="Ekran/70_vitrin_panzer_snow.jpg" alt="Panzer"> | <img src="Ekran/70_vitrin_timex_vael.jpg" alt="Timex"> |
+
 **Silah ve hareket cilası (2. tur)** · *test aşamasında*
 - Timex'in asası zıplarken ve inerken artık yüzün önünden geçmiyor.
 - Kalkan doğru yöne bakıyor; kola girmiyor, havada "tepsi" gibi yatmıyor.
