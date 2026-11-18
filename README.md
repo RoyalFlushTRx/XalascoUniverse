@@ -1,6 +1,6 @@
-# XALASCO
+# XALASCO UNIVERSE
 
-**Kronit Çağı** · Unreal Engine 5 ile geliştirilen stilize, online aksiyon RPG (MMORPG)
+**Xalasco: Kronit Çağı** · Unreal Engine 5 ile geliştirilen stilize, online aksiyon RPG (MMORPG)
 
 Geliştiren: **RoyalFlush** · Durum: **Geliştirme aşamasında**
 
@@ -67,6 +67,6 @@ Ayrıntılar: **[Yol haritası](Yol_Haritasi.md)** · Son değişiklikler: **[Ge
 
 ### English
 
-**Xalasco** is a stylised online action RPG built with Unreal Engine 5, set in a world where time has crystallised into *Kronit*.
+**Xalasco Universe**: Xalasco is a stylised online action RPG built with Unreal Engine 5, set in a world where time has crystallised into *Kronit*.
 This repository only tracks development progress: screenshots, devlog and roadmap. Source code and game files are private.
 © 2026 RoyalFlush. All rights reserved.
