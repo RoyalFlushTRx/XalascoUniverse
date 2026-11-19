@@ -4,6 +4,37 @@ Yeniden eskiye. "Test aşamasında" yazan işler kodda bitmiştir; oyun içi do�
 
 ---
 
+## 19 Kasım 2026
+
+**Cryon: altı yetenek ve ilk ulti oyunda** · *test aşamasında*
+- Cryon'un ilk yetenek seti tamamlandı: **Ayaz Kesiği**, **Termal Akış**, **Termal Şok**, **Donma Noktası**, **Ayaz Duvarı**, imza yeteneği **Isı Dalgası** ve Sv 10 ultisi **Ayaz Halkası**. Sv 5'te **Isı Kalbi** pasifi açılıyor.
+- **Termal Merdiven:** düşman soğudukça adım adım yavaşlıyor. Önce *Serin* (hareket ve saldırı hızı −%15), sonra *Buzlu* (−%30), en sonunda 2 saniyeliğine buz kalıbında *Donmuş*. Bosslar donmuyor; onun yerine *Kırılgan* oluyor.
+- Sınıfın döngüsü: **Soğut → Çek → Aktar → Şokla.** Termal Akış tek tuşta iki iş yapıyor: dokununca dosta ısı aktarıyor, basılı tutunca düşmandan ısı çekiyor (*Soğuk Avuç*). Termal Şok yalnız Buzlu ya da Donmuş düşmana (ya da kendi Ayaz Duvarı'na) çalışıyor.
+- Termal Rezerv düşmanı soğuttukça doluyor, aktarım ve şokla harcanıyor; Isı Dalgası hepsini bir anda salıyor.
+- Görünüm yenilendi: teber kalınlaştı; beyaz yalıtımlı zırh plakaları, yeni omuzluklar ve uyluk plakaları geldi. Yeteneklerin efektleri ve sesleri eklendi.
+
+| Önden | Arkadan | Ayaz Kesiği: Saplama ile donan düşman |
+|:---:|:---:|:---:|
+| <img src="Ekran/C13_cryon_hero.jpg" alt="Cryon önden"> | <img src="Ekran/C13_cryon_hero_back_2.jpg" alt="Cryon arkadan, soğutma tüpü ve omuzluklar"> | <img src="Ekran/C13_cryon_basic.jpg" alt="Ayaz Kesiği ile buz kalıbına giren düşman"> |
+| **İmza: Isı Dalgası** | **Ulti: Ayaz Halkası** | **20 sınıflık seçim ekranı** |
+| <img src="Ekran/C13_cryon_sig.jpg" alt="Isı Dalgası"> | <img src="Ekran/C13_cryon_ult1.jpg" alt="Ayaz Halkası"> | <img src="Ekran/C13_cryon_select_2.jpg" alt="20 sınıflık seçim ekranı"> |
+
+**20 sınıfa hazırlık: çekirdek sistemler** · *test aşamasında*
+- Karakter oluşturma ekranında artık 20 sınıfın tamamı var: rol süzgeçli (yakın, menzilli, tank, şifacı, destek, kontrol) bir rozet ızgarası. Henüz hazır olmayan sınıflar soluk görünüyor; Cryon "pilot" etiketiyle seçilebiliyor.
+- Kayıt sistemi yeni sürüme geçti; eski karakterler korunarak yükleniyor.
+- Ortak savaş kuralları tek yerde toplandı: oyuncuya karşı oyuncu katsayısı, art arda gelen kontrol etkilerinin azalması, kalkan kuralları.
+- İtme, savrulma, atılma ve ışınlanma için yeni ortak hareket çekirdeği eklendi. Şimdilik eski yoldan çalışıyor; oyun içi karşılaştırmadan sonra açılacak.
+- Haritanın büyümesi için bölge ve mob verisi altyapısı hazırlandı.
+
+**Test altyapısı**
+- Otomatik duman testi 619 denetime çıktı (590'ı geçiyor). Kalanların çoğu yeni eklenen ve ayarı süren silah aralığı ölçümleri. Biri gerçek bir bulgu: Cryon'un teberi zıplarken yüzün önünden geçiyor; sıradaki düzeltmelerden.
+- Yeni test türleri: oynanış senaryoları (27/27 geçti), sunucu + istemci ile çok oyunculu testler ve performans ölçümü.
+
+**Kararlılık**
+- Dünkü ekran kartı çökmesi önleminin oyunda gerçekten uygulandığı doğrulandı; bu akşamki 161 karelik fotoğraf turunda çökme olmadı.
+
+---
+
 ## 18 Kasım 2026
 
 **İlk yeni sınıf: Cryon** · *test aşamasında*

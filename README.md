@@ -22,7 +22,8 @@ savaşçılar ördü: **Yankılar**. Sen onlardan birisin.
 ## Şu an oyunda neler var?
 
 - **3 oynanabilir sınıf:** Speeder (elektrik hızında suikastçı), Panzer (dev tank), Timex (zaman büyücüsü) ve sınıflar arası **Rezonans** sinerjisi.
-- **Yeni sınıf:** ilk yeni sınıf **Cryon** (buzul kontrol tankı) ilk sürümüyle test aşamasında.
+- **Yeni sınıf:** ilk yeni sınıf **Cryon** (buzul kontrol tankı) altı yeteneği ve **Ayaz Halkası** ultisiyle test aşamasında.
+- **20 sınıflık seçim ekranı:** rol süzgeçli rozet ızgarası; yeni sınıflar hazır oldukça açılıyor.
 - **6 × 6 km'lik dünya:** 5 bölge, göl, yüzen adalar, 29 mob kampı, 9 Kronit Kapısı ile ışınlanma, hover-kızak binek.
 - **Hikâye ve görevler:** önsöz sineması, 25 görevlik ana hikâye, 26 yan görev, 9 NPC; final boss **Morvax, Entropi Tiranı**.
 - **Yaşayan dünya:** dört mevsim, gün/gece döngüsü, gerçek 3B kar ve yağmur, fırtına ve şimşek, kışın donan göl, Zaman Fırtınası dünya olayı.
@@ -61,8 +62,10 @@ seviyesini gösterir: **+9** mor kıvılcım, **+12** altın iz, **+15** kızıl
 
 | | | |
 |:---:|:---:|:---:|
-| <img src="Ekran/C13_cryon_select.jpg" alt="Cryon sınıf seçimi"> | <img src="Ekran/C13_cryon_hud.jpg" alt="Cryon savaşta"> | <img src="Ekran/C13_cryon_hero_back.jpg" alt="Cryon arkadan"> |
-| Sınıf seçimi | Termal Rezerv barı ve Ayaz Kesiği | Sırttaki soğutma tüpü |
+| <img src="Ekran/C13_cryon_hero.jpg" alt="Cryon önden"> | <img src="Ekran/C13_cryon_hero_back_2.jpg" alt="Cryon arkadan"> | <img src="Ekran/C13_cryon_basic.jpg" alt="Ayaz Kesiği"> |
+| Önden: yalıtımlı plakalar, göğüste Isı Kalbi | Arkadan: soğutma tüpü ve omuzluklar | Ayaz Kesiği: Saplama ile donan düşman |
+| <img src="Ekran/C13_cryon_sig.jpg" alt="Isı Dalgası"> | <img src="Ekran/C13_cryon_ult1.jpg" alt="Ayaz Halkası"> | <img src="Ekran/C13_cryon_hud.jpg" alt="Cryon savaşta"> |
+| İmza: Isı Dalgası | Ulti: Ayaz Halkası | Termal Rezerv barı |
 
 ## Ekran görüntüleri
 
@@ -89,7 +92,7 @@ Hepsi oyun içinden, otomatik fotoğraf turuyla çekildi.
 
 | Alan | Şu an | Hedef | |
 |---|---|---|---|
-| Oynanabilir sınıf | 3 (+ Cryon testte) | 20 | `███░░░░░░░░░░░░░░░░░` |
+| Oynanabilir sınıf | 3 (+ Cryon testte) | 20 | `███▒░░░░░░░░░░░░░░░░` |
 | Dünya (bölge alanı) | 5 alan | 7 büyük bölge, 17 alan | `██████░░░░░░░░░░░░░░` |
 | Görev | 51 | ~350 | `███░░░░░░░░░░░░░░░░░` |
 | Hikâye | Perde I | 7 perde + Sonsöz | `███░░░░░░░░░░░░░░░░░` |
