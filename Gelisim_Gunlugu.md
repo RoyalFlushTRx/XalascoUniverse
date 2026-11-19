@@ -12,6 +12,11 @@ Yeniden eskiye. "Test aşamasında" yazan işler kodda bitmiştir; oyun içi do�
 - Sınıfın döngüsü: **Soğut → Çek → Aktar → Şokla.** Termal Akış tek tuşta iki iş yapıyor: dokununca dosta ısı aktarıyor, basılı tutunca düşmandan ısı çekiyor (*Soğuk Avuç*). Termal Şok yalnız Buzlu ya da Donmuş düşmana (ya da kendi Ayaz Duvarı'na) çalışıyor.
 - Termal Rezerv düşmanı soğuttukça doluyor, aktarım ve şokla harcanıyor; Isı Dalgası hepsini bir anda salıyor.
 - Görünüm yenilendi: teber kalınlaştı; beyaz yalıtımlı zırh plakaları, yeni omuzluklar ve uyluk plakaları geldi. Yeteneklerin efektleri ve sesleri eklendi.
+- **Teber zıplarken artık yüzün önünden geçmiyor.** Ağır teber kendi tutuşunu aldı: havada ve inişte yanda, dik taşınıyor; oyun kamerasında baş hep açık. Timex'in asası ve Speeder'ın teberi eskisi gibi.
+
+| Zıplarken Teber yanda | Oyun kamerasından |
+|:---:|:---:|
+| <img src="Ekran/66_jump_cryon.jpg" alt="Cryon zıplarken, Teber yanda ve dik"> | <img src="Ekran/66_jump_cryon_gameplay.jpg" alt="Oyun kamerasından zıplayan Cryon"> |
 
 | Önden | Arkadan | Ayaz Kesiği: Saplama ile donan düşman |
 |:---:|:---:|:---:|
@@ -27,7 +32,7 @@ Yeniden eskiye. "Test aşamasında" yazan işler kodda bitmiştir; oyun içi do�
 - Haritanın büyümesi için bölge ve mob verisi altyapısı hazırlandı.
 
 **Test altyapısı**
-- Otomatik duman testi 619 denetime çıktı (590'ı geçiyor). Kalanların çoğu yeni eklenen ve ayarı süren silah aralığı ölçümleri. Biri gerçek bir bulgu: Cryon'un teberi zıplarken yüzün önünden geçiyor; sıradaki düzeltmelerden.
+- Otomatik duman testi 600'ü aşkın denetimle koşuyor; son koşuda 617 denetimin 591'i geçti. Kalanların hepsi yeni eklenen ve ayarı süren silah aralığı ölçümleri ile bir kamera sahnesi. Testin bulduğu gerçek sorun (Cryon'un teberi zıplarken yüzün önünden geçiyordu) aynı akşam düzeltildi.
 - Yeni test türleri: oynanış senaryoları (27/27 geçti), sunucu + istemci ile çok oyunculu testler ve performans ölçümü.
 
 **Kararlılık**
