@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Xalasco · MMORPG Tanıtım Fragmanı</title>
-<meta name="description" content="Xalasco: Kronit Çağı MMORPG tanıtım fragmanı. Tamamı oyun içi görüntülerden: açık dünya, kahramanlar, büyüler, ordulara karşı savaşlar ve boss savaşı.">
+<title>Xalasco: Kronit Çağı · MMORPG</title>
+<meta name="description" content="Xalasco: Kronit Çağı, Unreal Engine 5 ile geliştirilen stilize, online aksiyon RPG (MMORPG). Tanıtım fragmanı, hikâye, kahramanlar, dünya ve oyun içi görüntüler.">
 <meta property="og:type" content="video.other">
-<meta property="og:title" content="Xalasco · MMORPG Tanıtım Fragmanı">
-<meta property="og:description" content="Tamamı oyun içi görüntülerden: açık dünya, kahramanlar, büyüler, ordulara karşı savaşlar ve boss savaşı.">
+<meta property="og:title" content="Xalasco: Kronit Çağı · MMORPG Tanıtım Fragmanı">
+<meta property="og:description" content="Zamanın kristalleşip Kronit'e dönüştüğü bir dünya. Tanıtım fragmanı, hikâye, kahramanlar ve oyun içi görüntüler.">
 <meta property="og:image" content="https://royalflushtrx.github.io/XalascoUniverse/kapak.jpg">
 <meta property="og:url" content="https://royalflushtrx.github.io/XalascoUniverse/">
 <meta property="og:video" content="https://royalflushtrx.github.io/XalascoUniverse/fragman.mp4">
@@ -16,24 +16,38 @@
 <meta property="og:video:height" content="1080">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#0b0a08">
+<meta name="color-scheme" content="dark">
 <style>
-  :root { --bg:#0b0a08; --fg:#ece6d8; --muted:#a39a87; --gold:#d8b25a; --line:#2a251c; }
+  :root {
+    color-scheme:dark;
+    --bg:#0b0a08; --bg2:#13110d; --card:#16130e; --fg:#ece6d8; --muted:#a39a87; --gold:#d8b25a;
+    --gold-hi:#f6e2a8; --line:#2a251c; --ice:#8fd8ff; --serif:Georgia,"Times New Roman",serif;
+  }
   * { box-sizing:border-box; }
+  html { scroll-behavior:smooth; }
   html,body { margin:0; background:var(--bg); color:var(--fg); }
-  body { font-family:"Segoe UI",system-ui,-apple-system,Roboto,Arial,sans-serif; line-height:1.55;
-         background:radial-gradient(ellipse at 50% -10%, #2a2214 0%, var(--bg) 60%) fixed; }
-  main { max-width:1180px; margin:0 auto; padding:32px 16px 48px; }
-  header { text-align:center; margin-bottom:22px; }
-  h1 { margin:0; font-family:Georgia,"Times New Roman",serif; font-weight:700; letter-spacing:.32em;
-       font-size:clamp(30px,6vw,58px); padding-left:.32em;
-       background:linear-gradient(180deg,#f6e2a8 0%,#d8b25a 55%,#8f6a26 100%);
+  body { font-family:"Segoe UI",system-ui,-apple-system,Roboto,Arial,sans-serif; line-height:1.6;
+         background:radial-gradient(ellipse at 50% -10%, #2a2214 0%, var(--bg) 55%) no-repeat, var(--bg); }
+  img { max-width:100%; display:block; }
+  a { color:var(--gold); }
+  .wrap { max-width:1180px; margin:0 auto; padding:0 16px; }
+
+  /* header + nav */
+  header.top { text-align:center; padding:32px 0 10px; }
+  h1 { margin:0; font-family:var(--serif); font-weight:700; letter-spacing:.32em; padding-left:.32em;
+       font-size:clamp(30px,6vw,58px);
+       background:linear-gradient(180deg,var(--gold-hi) 0%,var(--gold) 55%,#8f6a26 100%);
        -webkit-background-clip:text; background-clip:text; color:transparent; }
   .sub { margin:6px 0 0; color:var(--muted); letter-spacing:.3em; font-size:clamp(11px,1.6vw,14px); text-transform:uppercase; }
-  .player { position:relative; border:1px solid var(--line); border-radius:10px; overflow:hidden;
-            background:#000; box-shadow:0 20px 60px rgba(0,0,0,.6), 0 0 0 1px rgba(216,178,90,.08); }
+  nav.sections { display:flex; justify-content:center; gap:4px 22px; flex-wrap:wrap; margin:16px 0 22px; font-size:14px; }
+  nav.sections a { color:var(--muted); text-decoration:none; letter-spacing:.08em; padding:4px 0; border-bottom:1px solid transparent; }
+  nav.sections a:hover, nav.sections a:focus-visible { color:var(--gold-hi); border-bottom-color:var(--gold); }
+
+  /* player */
+  .player { border:1px solid var(--line); border-radius:10px; overflow:hidden; background:#000;
+            box-shadow:0 20px 60px rgba(0,0,0,.6), 0 0 0 1px rgba(216,178,90,.08); }
   video { display:block; width:100%; height:auto; aspect-ratio:16/9; background:#000; }
-  .info { display:flex; flex-wrap:wrap; gap:14px 28px; justify-content:space-between; align-items:flex-start;
-          margin-top:22px; padding-bottom:22px; border-bottom:1px solid var(--line); }
+  .info { display:flex; flex-wrap:wrap; gap:14px 28px; justify-content:space-between; align-items:flex-start; margin-top:22px; }
   .info p { margin:0; max-width:680px; }
   .meta { color:var(--muted); font-size:14px; margin-top:6px !important; }
   .links { display:flex; flex-wrap:wrap; gap:10px; }
@@ -41,40 +55,364 @@
           border:1px solid var(--gold); color:var(--gold); white-space:nowrap; }
   a.btn.primary { background:var(--gold); color:#16120a; font-weight:600; }
   a.btn:hover { filter:brightness(1.12); }
-  footer { margin-top:18px; color:var(--muted); font-size:13px; }
-  footer a { color:var(--gold); }
+
+  /* sections */
+  section.block { padding:72px 0 0; scroll-margin-top:12px; }
+  .eyebrow { color:var(--gold); letter-spacing:.32em; text-transform:uppercase; font-size:12px; margin:0 0 8px; }
+  h2 { font-family:var(--serif); font-weight:700; font-size:clamp(26px,4vw,40px); line-height:1.2; margin:0 0 14px; color:var(--gold-hi); }
+  h3 { font-family:var(--serif); font-size:22px; margin:0; color:var(--gold-hi); }
+  .lead { font-size:clamp(16px,2vw,18px); max-width:760px; color:var(--fg); margin:0 0 26px; }
+  .rule { height:1px; background:linear-gradient(90deg,transparent,var(--line) 15%,var(--line) 85%,transparent); margin:72px 0 0; border:0; }
+
+  /* story */
+  .story { position:relative; border:1px solid var(--line); border-radius:12px; overflow:hidden; min-height:480px;
+           display:flex; align-items:flex-end; background:#07070a url("img/23_planet_vael.jpg") center 30% / cover no-repeat; }
+  .story::before { content:""; position:absolute; inset:0;
+                   background:linear-gradient(90deg, rgba(8,7,10,.94) 0%, rgba(8,7,10,.82) 45%, rgba(8,7,10,.25) 100%); }
+  .story .text { position:relative; padding:40px clamp(20px,4vw,48px); max-width:660px; }
+  .story p { margin:0 0 14px; }
+  .story .you { font-family:var(--serif); font-size:clamp(22px,3vw,28px); color:var(--gold-hi); margin:20px 0 0; }
+  .facts { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(240px,100%),1fr)); gap:16px; margin-top:18px; }
+  .fact { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:18px 20px; }
+  .fact b { display:block; font-family:var(--serif); color:var(--gold-hi); font-size:18px; margin-bottom:4px; }
+  .fact span { color:var(--muted); font-size:15px; }
+
+  /* heroes */
+  .heroes { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(250px,100%),1fr)); gap:18px; }
+  .hero { background:var(--card); border:1px solid var(--line); border-radius:12px; overflow:hidden; display:flex; flex-direction:column; }
+  .hero a.shot { display:block; position:relative; aspect-ratio:16/10; overflow:hidden; }
+  .hero a.shot img { width:100%; height:100%; object-fit:cover; transition:transform .5s ease; }
+  .hero:hover a.shot img { transform:scale(1.04); }
+  .hero .body { padding:16px 18px 18px; display:flex; flex-direction:column; gap:8px; flex:1; }
+  .role { color:var(--gold); font-size:12px; letter-spacing:.2em; text-transform:uppercase; margin:0; }
+  .hero p { margin:0; font-size:15px; }
+  .gear { color:var(--muted); font-size:13px; border-top:1px solid var(--line); padding-top:10px; margin-top:auto !important; }
+  .tag { position:absolute; top:10px; left:10px; background:rgba(8,20,28,.85); color:var(--ice); border:1px solid rgba(143,216,255,.5);
+         font-size:11px; letter-spacing:.12em; text-transform:uppercase; padding:3px 8px; border-radius:4px; }
+  .note { color:var(--muted); font-size:15px; margin:22px 0 0; max-width:820px; }
+  .upcoming { margin-top:28px; }
+  .upcoming h3 { font-size:19px; margin-bottom:12px; }
+  .chips { display:flex; flex-wrap:wrap; gap:8px; padding:0; margin:0; list-style:none; }
+  .chips li { border:1px solid var(--line); background:var(--bg2); border-radius:999px; padding:5px 12px; font-size:14px; }
+  .chips li small { color:var(--muted); font-size:12px; }
+
+  /* world */
+  .tiles { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(220px,100%),1fr)); gap:14px; }
+  .tile { border:1px solid var(--line); border-radius:10px; padding:16px 18px; background:linear-gradient(180deg,#18140d,#110f0b); }
+  .tile b { display:block; font-family:var(--serif); font-size:22px; color:var(--gold-hi); }
+  .tile span { color:var(--muted); font-size:14px; }
+  .pair { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(280px,100%),1fr)); gap:14px; margin-top:18px; }
+
+  /* gallery */
+  .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(min(300px,100%),1fr)); gap:12px; }
+  figure { margin:0; }
+  .grid figure, .pair figure { position:relative; border-radius:8px; overflow:hidden; border:1px solid var(--line); background:#000; }
+  .grid a, .pair a { display:block; aspect-ratio:16/9; }
+  .grid img, .pair img { width:100%; height:100%; object-fit:cover; transition:transform .5s ease, filter .3s; }
+  .grid figure:hover img, .pair figure:hover img { transform:scale(1.04); filter:brightness(1.08); }
+  .grid figure:has(> a:focus-visible), .pair figure:has(> a:focus-visible), .hero:has(a.shot:focus-visible) { outline:2px solid var(--gold-hi); outline-offset:3px; }
+  figcaption { position:absolute; left:0; right:0; bottom:0; padding:22px 12px 9px; font-size:13px; color:#f1ebdd;
+               background:linear-gradient(0deg,rgba(0,0,0,.88) 0%,rgba(0,0,0,.7) 55%,rgba(0,0,0,0) 100%);
+               text-shadow:0 1px 2px rgba(0,0,0,.9); pointer-events:none; }
+
+  /* roadmap */
+  .progress { display:grid; gap:14px; max-width:860px; }
+  .prow { display:grid; grid-template-columns:minmax(150px,210px) 1fr; gap:6px 18px; align-items:center; }
+  .prow .lbl { font-weight:600; }
+  .prow .lbl small { display:block; color:var(--muted); font-weight:400; font-size:13px; }
+  .bar { height:10px; border-radius:99px; background:#211c14; overflow:hidden; border:1px solid var(--line); }
+  .bar i { display:block; height:100%; width:var(--p); border-radius:99px; background:linear-gradient(90deg,#8f6a26,var(--gold),var(--gold-hi)); }
+  .cols { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(300px,100%),1fr)); gap:18px; margin-top:30px; }
+  .panel { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:20px 22px; }
+  .panel h3 { font-size:19px; margin-bottom:10px; }
+  .panel ul { margin:0; padding-left:18px; }
+  .panel li { margin:4px 0; }
+  .date { color:var(--gold); font-size:13px; letter-spacing:.1em; text-transform:uppercase; margin:0 0 4px; }
+
+  footer { margin:80px 0 0; padding:26px 0 40px; border-top:1px solid var(--line); color:var(--muted); font-size:13px; }
+  footer p { margin:4px 0; }
+
+  /* lightbox */
+  dialog.lb { padding:0; border:0; background:transparent; max-width:96vw; max-height:96vh; max-height:96svh; overflow:visible; color:var(--fg); }
+  dialog.lb::backdrop { background:rgba(4,4,6,.92); }
+  .lb img { width:min(94vw, calc(84vh * 16 / 9)); width:min(94vw, calc(84svh * 16 / 9)); height:auto; aspect-ratio:16/9; object-fit:contain;
+            background:#000; border-radius:6px; box-shadow:0 10px 50px rgba(0,0,0,.7); margin:0 auto; }
+  .lb p { text-align:center; margin:10px 0 0; font-size:15px; }
+  .lb button { position:fixed; background:rgba(20,18,14,.8); color:var(--gold-hi); border:1px solid var(--line); border-radius:50%;
+               width:46px; height:46px; font-size:22px; line-height:1; cursor:pointer; }
+  .lb button:hover { border-color:var(--gold); }
+  .lb button:focus-visible { border-color:var(--gold); outline:2px solid var(--gold-hi); outline-offset:2px; }
+  .lb .x { top:14px; right:14px; }
+  .lb .prev { left:14px; top:50%; transform:translateY(-50%); }
+  .lb .next { right:14px; top:50%; transform:translateY(-50%); }
+  @media (max-width:640px) {
+    .story { min-height:0; background-size:100% auto; background-position:top center; }
+    .story::before { background:linear-gradient(180deg, rgba(8,7,10,0) 0, rgba(8,7,10,0) 30vw, rgba(8,7,10,.97) 54vw); }
+    .story .text { padding-top:calc(50vw - 8px); }
+    .prow { grid-template-columns:1fr; }
+    .grid { grid-template-columns:repeat(auto-fill,minmax(150px,1fr)); gap:8px; }
+    .grid figcaption { display:none; }
+    .lb .prev, .lb .next { top:auto; bottom:14px; transform:none; }
+  }
+  @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } * { transition:none !important; } }
 </style>
 </head>
 <body>
-<main>
-  <header>
+<div class="wrap">
+  <header class="top">
     <h1>XALASCO</h1>
-    <p class="sub">Kronit Çağı · MMORPG Tanıtım Fragmanı</p>
+    <p class="sub">Kronit Çağı · Online Aksiyon RPG</p>
+    <nav class="sections" aria-label="Bölümler">
+      <a href="#fragman">Fragman</a><a href="#hikaye">Hikâye</a><a href="#kahramanlar">Kahramanlar</a>
+      <a href="#dunya">Dünya</a><a href="#galeri">Galeri</a><a href="#yol">Yol haritası</a>
+    </nav>
   </header>
 
-  <div class="player">
-    <video controls playsinline preload="metadata" poster="kapak.jpg">
-      <source src="fragman.mp4" type="video/mp4">
-      Tarayıcınız video oynatmayı desteklemiyor. <a href="fragman.mp4">Videoyu buradan açın.</a>
-    </video>
-  </div>
+  <main>
+    <section id="fragman" aria-label="Tanıtım fragmanı" style="scroll-margin-top:12px">
+      <div class="player">
+        <video controls playsinline preload="metadata" poster="kapak.jpg" aria-label="Xalasco: Kronit Çağı tanıtım fragmanı">
+          <source src="fragman.mp4" type="video/mp4">
+          Tarayıcınız video oynatmayı desteklemiyor. <a href="fragman.mp4">Videoyu buradan açın.</a>
+        </video>
+      </div>
+      <div class="info">
+        <div>
+          <p>Tamamı oyun içi görüntülerden hazırlanan tanıtım fragmanı: açık dünya ve farklı bölgeler, kahramanlar,
+             büyüler, ordulara karşı savaşlar ve bir boss savaşı: <strong>Morvax, Entropi Tiranı</strong>.</p>
+          <p class="meta">1:36 · 1080p · 50 FPS · Unreal Engine 5 · Geliştirme aşamasında</p>
+        </div>
+        <div class="links">
+          <a class="btn primary" href="https://github.com/RoyalFlushTRx/XalascoUniverse">Geliştirme sayfası</a>
+          <a class="btn" href="https://github.com/RoyalFlushTRx/XalascoUniverse/releases/tag/fragman-v1">Tam kalite indir</a>
+        </div>
+      </div>
+    </section>
 
-  <section class="info">
-    <div>
-      <p>Tamamı oyun içi görüntülerden hazırlanan tanıtım fragmanı: açık dünya ve farklı bölgeler, kahramanlar,
-         kadim büyüler, ordulara karşı savaşlar ve <strong>Morvax, Entropi Tiranı</strong> ile boss savaşı.</p>
-      <p class="meta">1:36 · 1080p · 50 FPS</p>
-    </div>
-    <div class="links">
-      <a class="btn primary" href="https://github.com/RoyalFlushTRx/XalascoUniverse">Geliştirme sayfası</a>
-      <a class="btn" href="https://github.com/RoyalFlushTRx/XalascoUniverse/releases/tag/fragman-v1">Tam kalite indir</a>
-    </div>
-  </section>
+    <!-- HİKÂYE -->
+    <section class="block" id="hikaye">
+      <p class="eyebrow">Hikâye</p>
+      <h2>Zamanın kristalleştiği dünya</h2>
+      <div class="story">
+        <div class="text">
+          <p>Xalasco bir Orta Çağ masalı değil. Burada zaman kristalleşir ve <strong>Kronit</strong>'e dönüşür.
+             Adalar havada süzülür, gökte halkalı gaz devi <strong>Vael</strong> doğar.</p>
+          <p>Bin yıl boyunca <strong>Saatçiler Tarikatı</strong>, dünyanın kalbindeki <strong>Kalp Saati</strong>'ni korudu.
+             Sonra <strong>Kırılma</strong> gecesi geldi: kadran çatladı ve çatlaktan renkleri, anıları ve isimleri silen gri bir sis sızdı.
+             Adı <strong>Entropi</strong>'ydi.</p>
+          <p>Saat susmadan önce son bir kez attı ve zamanın ipliklerinden savaşçılar ördü: <strong>Yankılar</strong>.</p>
+          <p class="you">Sen onlardan birisin.</p>
+        </div>
+      </div>
+      <div class="facts">
+        <div class="fact"><b>Şu an oyunda</b><span>Önsöz sineması, 25 görevlik ana hikâye (Perde I), 26 yan görev ve 9 NPC.</span></div>
+        <div class="fact"><b>Yedi Kışın Borcu</b><span>Planlanan ana hikâyenin adı: toplam yedi perde ve bir Sonsöz. İlk perde şimdiden oyunda.</span></div>
+        <div class="fact"><b>Morvax, Entropi Tiranı</b><span>Şu an oyundaki 25 görevlik ana hikâyenin (Perde I) final bossu. İlk zindan da onun adını taşıyor: Morvax'ın Eşiği.</span></div>
+      </div>
+    </section>
+
+    <!-- KAHRAMANLAR -->
+    <section class="block" id="kahramanlar">
+      <p class="eyebrow">Sınıflar</p>
+      <h2>Yankıların kahramanları</h2>
+      <p class="lead">Üç sınıf oynanabilir durumda ve aralarında <strong>Rezonans</strong> sinerjisi var; dördüncüsü Cryon test aşamasında.</p>
+      <div class="heroes">
+        <article class="hero">
+          <a class="shot" href="img/70_vitrin_speeder_dusk.jpg" data-cap="Speeder · gün batımında Seraf Kanatları"><img src="img/t/70_vitrin_speeder_dusk.jpg" width="640" height="360" loading="lazy" alt="Speeder, gün batımında Seraf Kanatları ile"></a>
+          <div class="body">
+            <p class="role">Yakın dövüş DPS</p>
+            <h3>Speeder</h3>
+            <p>Elektrik hızında bir suikastçı. Alan saldırılarıyla mob kamplarına dalar.</p>
+            <p class="gear">Yıldız Yolu seti +9 · <em>Yarık Biçen</em> (mitik teber) · <em>Seraf Kanatları</em> (mitik)</p>
+          </div>
+        </article>
+        <article class="hero">
+          <a class="shot" href="img/70_vitrin_panzer_snow.jpg" data-cap="Panzer · karakolda karlı gece"><img src="img/t/70_vitrin_panzer_snow.jpg" width="640" height="360" loading="lazy" alt="Panzer, karakolda karlı bir gecede"></a>
+          <div class="body">
+            <p class="role">Tank</p>
+            <h3>Panzer</h3>
+            <p>Dev bir tank. Ağır zırhı ve çekiciyle hücumu göğüsler, takımının önünde durur.</p>
+            <p class="gear">Hiçlik Dövmesi seti +15 · <em>Entropinin Çekici</em> (mitik) · <em>Kızıl Kule Omuzlukları</em> · <em>Gece Yolcusu Pelerini</em></p>
+          </div>
+        </article>
+        <article class="hero">
+          <a class="shot" href="img/70_vitrin_timex_vael.jpg" data-cap="Timex · Vael'in doğuşu"><img src="img/t/70_vitrin_timex_vael.jpg" width="640" height="360" loading="lazy" alt="Timex arkadan, gece gökyüzünde halkalı gaz devi Vael"></a>
+          <div class="body">
+            <p class="role">Destek / kontrol</p>
+            <h3>Timex</h3>
+            <p>Zaman büyücüsü. Savaşın akışını kontrol eder, takımına destek olur.</p>
+            <p class="gear">Güneş Nişanı seti +12 · <em>Son Şafak</em> (mitik asa) · <em>Şafak Tacı</em></p>
+          </div>
+        </article>
+        <article class="hero">
+          <a class="shot" href="img/C13_cryon_hero.jpg" data-cap="Cryon · yalıtımlı plakalar, göğüste Isı Kalbi"><span class="tag">Test aşamasında</span><img src="img/t/C13_cryon_hero.jpg" width="640" height="360" loading="lazy" alt="Cryon önden, göğsünde Isı Kalbi"></a>
+          <div class="body">
+            <p class="role">Kontrol tankı · yeni sınıf</p>
+            <h3>Cryon</h3>
+            <p>Isıyı düşmandan çalıp dosta taşıyan bir buzul kalkanı. Mana yerine <strong>Termal Rezerv</strong> kullanır; düşmanlar soğudukça
+               <em>Serin</em>, <em>Buzlu</em> ve sonunda <em>Donmuş</em> olur (bosslar donmaz, <em>Kırılgan</em> olur). Ultisi: <strong>Ayaz Halkası</strong>.</p>
+            <p class="gear"><em>Termal Teber</em> · göğüste <em>Isı Kalbi</em> · sırtta soğutma tüpü</p>
+          </div>
+        </article>
+      </div>
+      <p class="note">Zırhtaki ışıltı, + basma seviyesini gösterir: <strong>+9</strong> mor kıvılcım, <strong>+12</strong> altın iz,
+         <strong>+15</strong> kızıl nabız.</p>
+      <div class="upcoming">
+        <h3>Yolda 16 sınıf daha</h3>
+        <ul class="chips">
+          <li>Gravitor <small>kontrol ve alan hasarı</small></li><li>Umbra <small>suikastçı</small></li>
+          <li>Mortifex <small>çağırıcı</small></li><li>Ruhkıran <small>bruiser / yardımcı tank</small></li>
+          <li>Bağlayıcı <small>melez destek / DPS</small></li><li>Simbiyont <small>şifacı</small></li>
+          <li>Mekanist <small>robot / evcil DPS</small></li><li>Kundakçı <small>alan hasarı</small></li>
+          <li>Yarıkgezer <small>hareket desteği</small></li><li>Vahşi Bağcı <small>evcil hayvan uzmanı</small></li>
+          <li>Arbalist <small>menzilli DPS</small></li><li>Tınıcı <small>ritim desteği</small></li>
+          <li>Mühürcü <small>büyücü / koruyucu</small></li><li>Kaderdokuyan <small>talih desteği</small></li>
+          <li>Prizmacı <small>menzilli kontrol</small></li><li>Örsdoğan <small>biçim değiştiren yakın dövüş</small></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- DÜNYA -->
+    <section class="block" id="dunya">
+      <p class="eyebrow">Dünya</p>
+      <h2>Yaşayan bir dünya</h2>
+      <p class="lead">Mevsimleri değişen, gecesi gündüzünü kovalayan, fırtınası ve şimşeği olan bir dünya. Kronit Kapıları arasında ışınlan,
+         hover-kızak bineğinle süzül, mob kamplarından ganimet topla.</p>
+      <div class="tiles">
+        <div class="tile"><b>6 × 6 km</b><span>Beş bölge alanı, bir göl ve gökyüzünde süzülen adalar.</span></div>
+        <div class="tile"><b>9 Kronit Kapısı</b><span>Kapılar arasında ışınlan; kalan yolu hover-kızakla kat et.</span></div>
+        <div class="tile"><b>29 mob kampı</b><span>Ganimetler nadirliğe göre ışık sütunlarıyla parlar.</span></div>
+        <div class="tile"><b>Dört mevsim</b><span>Gün/gece döngüsü, gerçek 3B kar ve yağmur, kışın donan göl.</span></div>
+        <div class="tile"><b>Fırtınalar</b><span>Fırtına ve şimşeğin yanı sıra bir dünya olayı: Zaman Fırtınası.</span></div>
+        <div class="tile"><b>MMORPG sistemleri</b><span>Envanter, + basma, üretim, Yankı yetenek ağacı, başarımlar, günlük görevler.</span></div>
+      </div>
+      <div class="pair">
+        <figure><a href="img/03_meadow_golden_panzer.jpg" data-cap="Işıltı Çayırı, altın saat"><img src="img/t/03_meadow_golden_panzer.jpg" width="640" height="360" loading="lazy" alt="Işıltı Çayırı'nda altın saat"></a><figcaption>Işıltı Çayırı, altın saat</figcaption></figure>
+        <figure><a href="img/19_meadow_winter.jpg" data-cap="Kış: kar örtüsü ve 3B kar yağışı"><img src="img/t/19_meadow_winter.jpg" width="640" height="360" loading="lazy" alt="Karla kaplı kış çayırı"></a><figcaption>Kış: kar örtüsü ve 3B kar yağışı</figcaption></figure>
+      </div>
+    </section>
+
+    <!-- GALERİ -->
+    <section class="block" id="galeri">
+      <p class="eyebrow">Galeri</p>
+      <h2>Oyun içinden</h2>
+      <p class="lead">Tüm görüntüler oyunun içinden. Büyütmek için bir görsele tıklayın ya da dokunun.</p>
+      <div class="grid">
+        <figure><a href="img/70_vitrin_speeder_crystal.jpg" data-cap="Speeder, Kristal Vadi gecesi"><img src="img/t/70_vitrin_speeder_crystal.jpg" width="640" height="360" loading="lazy" alt="Speeder, Kristal Vadi'de gece"></a><figcaption>Speeder, Kristal Vadi gecesi</figcaption></figure>
+        <figure><a href="img/23_planet_vael.jpg" data-cap="Gökte halkalı gaz devi Vael"><img src="img/t/23_planet_vael.jpg" width="640" height="360" loading="lazy" alt="Gece gökyüzünde halkalı gaz devi Vael, ön planda uzun çimenler"></a><figcaption>Gökte halkalı gaz devi Vael</figcaption></figure>
+        <figure><a href="img/C13_cryon_ult1.jpg" data-cap="Cryon · Ulti: Ayaz Halkası"><img src="img/t/C13_cryon_ult1.jpg" width="640" height="360" loading="lazy" alt="Cryon'un ultisi Ayaz Halkası"></a><figcaption>Cryon · Ulti: Ayaz Halkası</figcaption></figure>
+        <figure><a href="img/41_cape_night_panzer.jpg" data-cap="Panzer, gece: efsanevi set, çekiç ve kalkan"><img src="img/t/41_cape_night_panzer.jpg" width="640" height="360" loading="lazy" alt="Panzer gece çayırda, efsanevi setiyle; elinde çekiç ve kalkan"></a><figcaption>Panzer, gece: efsanevi set, çekiç ve kalkan</figcaption></figure>
+        <figure><a href="img/66_jump_cryon.jpg" data-cap="Cryon zıplarken: Teber yanda ve dik"><img src="img/t/66_jump_cryon.jpg" width="640" height="360" loading="lazy" alt="Cryon zıplarken, Termal Teber yanda ve dik"></a><figcaption>Cryon zıplarken: Teber yanda ve dik</figcaption></figure>
+        <figure><a href="img/59_swing_speeder_wave.jpg" data-cap="Speeder: mob kampında alan saldırısı"><img src="img/t/59_swing_speeder_wave.jpg" width="640" height="360" loading="lazy" alt="Speeder, mob kampında alan saldırısı"></a><figcaption>Speeder: mob kampında alan saldırısı</figcaption></figure>
+        <figure><a href="img/42_legendary_timex.jpg" data-cap="Timex, kızıl gökyüzü: efsanevi asa"><img src="img/t/42_legendary_timex.jpg" width="640" height="360" loading="lazy" alt="Timex, kızıl gökyüzü altında efsanevi asa ile"></a><figcaption>Timex, kızıl gökyüzü: efsanevi asa</figcaption></figure>
+        <figure><a href="img/63_snow_outpost_night.jpg" data-cap="Işıltı Karakolu'nda karlı gece"><img src="img/t/63_snow_outpost_night.jpg" width="640" height="360" loading="lazy" alt="Işıltı Karakolu'nda karlı gece"></a><figcaption>Işıltı Karakolu'nda karlı gece</figcaption></figure>
+        <figure><a href="img/C13_cryon_sig.jpg" data-cap="Cryon · İmza yeteneği: Isı Dalgası"><img src="img/t/C13_cryon_sig.jpg" width="640" height="360" loading="lazy" alt="Cryon'un imza yeteneği Isı Dalgası"></a><figcaption>Cryon · İmza yeteneği: Isı Dalgası</figcaption></figure>
+        <figure><a href="img/70_vitrin_panzer_storm.jpg" data-cap="Panzer, sonbahar fırtınası"><img src="img/t/70_vitrin_panzer_storm.jpg" width="640" height="360" loading="lazy" alt="Panzer, sonbahar fırtınasında"></a><figcaption>Panzer, sonbahar fırtınası</figcaption></figure>
+        <figure><a href="img/67_focus_outpost_sinematik.jpg" data-cap="Karakol, Sinematik odak efekti (alan derinliği)"><img src="img/t/67_focus_outpost_sinematik.jpg" width="640" height="360" loading="lazy" alt="Karakol meydanı; karakter net, arka plan bulanık"></a><figcaption>Karakol, Sinematik odak efekti</figcaption></figure>
+        <figure><a href="img/59_swing_speeder_lightspeed.jpg" data-cap="Speeder: dondurucu patlama"><img src="img/t/59_swing_speeder_lightspeed.jpg" width="640" height="360" loading="lazy" alt="Speeder'ın dondurucu patlaması"></a><figcaption>Speeder: dondurucu patlama</figcaption></figure>
+        <figure><a href="img/70_vitrin_timex_dawn.jpg" data-cap="Timex, şafak"><img src="img/t/70_vitrin_timex_dawn.jpg" width="640" height="360" loading="lazy" alt="Timex, şafakta"></a><figcaption>Timex, şafak</figcaption></figure>
+        <figure><a href="img/C13_cryon_basic.jpg" data-cap="Cryon · Ayaz Kesiği: Saplama ile donan düşman"><img src="img/t/C13_cryon_basic.jpg" width="640" height="360" loading="lazy" alt="Ayaz Kesiği ile buz kalıbına giren düşman"></a><figcaption>Cryon · Ayaz Kesiği: Saplama ile donan düşman</figcaption></figure>
+        <figure><a href="img/70_vitrin_speeder_portrait.jpg" data-cap="Speeder portresi"><img src="img/t/70_vitrin_speeder_portrait.jpg" width="640" height="360" loading="lazy" alt="Speeder portresi"></a><figcaption>Speeder portresi</figcaption></figure>
+        <figure><a href="img/70_vitrin_panzer_portrait.jpg" data-cap="Panzer portresi"><img src="img/t/70_vitrin_panzer_portrait.jpg" width="640" height="360" loading="lazy" alt="Panzer portresi"></a><figcaption>Panzer portresi</figcaption></figure>
+        <figure><a href="img/70_vitrin_timex_portrait.jpg" data-cap="Timex, Kristal Vadi'de portre"><img src="img/t/70_vitrin_timex_portrait.jpg" width="640" height="360" loading="lazy" alt="Timex, Kristal Vadi'de portre"></a><figcaption>Timex, Kristal Vadi'de portre</figcaption></figure>
+        <figure><a href="img/C13_cryon_hero_back_2.jpg" data-cap="Cryon arkadan: soğutma tüpü ve omuzluklar"><img src="img/t/C13_cryon_hero_back_2.jpg" width="640" height="360" loading="lazy" alt="Cryon arkadan, soğutma tüpü ve omuzluklar"></a><figcaption>Cryon arkadan: soğutma tüpü ve omuzluklar</figcaption></figure>
+      </div>
+    </section>
+
+    <!-- YOL HARİTASI -->
+    <section class="block" id="yol">
+      <p class="eyebrow">Yol haritası</p>
+      <h2>Geliştirme yolculuğu</h2>
+      <p class="lead">Xalasco aktif olarak geliştiriliyor. Tarih verilmiyor; sıra ve kapsam çalışmalar sürdükçe değişebilir.</p>
+      <div class="progress">
+        <div class="prow"><div class="lbl">Oynanabilir sınıf<small>3 (+ Cryon testte) → 20</small></div><div class="bar" role="img" aria-label="20 sınıfın 3'ü oynanabilir"><i style="--p:17.5%"></i></div></div>
+        <div class="prow"><div class="lbl">Dünya (bölge alanı)<small>5 alan → 7 büyük bölge, 17 alan</small></div><div class="bar" role="img" aria-label="17 alanın 5'i hazır"><i style="--p:30%"></i></div></div>
+        <div class="prow"><div class="lbl">Görev<small>51 → yaklaşık 350</small></div><div class="bar" role="img" aria-label="Yaklaşık 350 görevin 51'i hazır"><i style="--p:15%"></i></div></div>
+        <div class="prow"><div class="lbl">Hikâye<small>Perde I → 7 perde + Sonsöz</small></div><div class="bar" role="img" aria-label="Yedi perdenin ilki hazır"><i style="--p:15%"></i></div></div>
+        <div class="prow"><div class="lbl">Seviye yolu<small>1–15 → 1–50</small></div><div class="bar" role="img" aria-label="50 seviyenin 15'i hazır"><i style="--p:30%"></i></div></div>
+      </div>
+      <div class="cols">
+        <div class="panel">
+          <p class="date">19 Kasım 2026 · son gelişme · test aşamasında</p>
+          <h3>Cryon: altı yetenek ve ilk ulti oyunda</h3>
+          <ul>
+            <li><strong>Ayaz Kesiği</strong>, <strong>Termal Akış</strong>, <strong>Termal Şok</strong>, <strong>Donma Noktası</strong>, <strong>Ayaz Duvarı</strong> ve imza yeteneği <strong>Isı Dalgası</strong></li>
+            <li>Seviye 10 ultisi <strong>Ayaz Halkası</strong>, seviye 5'te <strong>Isı Kalbi</strong> pasifi</li>
+            <li>Sınıfın döngüsü: <em>Soğut → Çek → Aktar → Şokla</em></li>
+            <li>Bosslar donmuyor; onun yerine <em>Kırılgan</em> oluyor</li>
+          </ul>
+        </div>
+        <div class="panel">
+          <p class="date">Planlanan</p>
+          <h3>Online özellikler ve dünya</h3>
+          <ul>
+            <li>Lonca ve grup bulucu, pazar / borsa, arena ve düello</li>
+            <li>Ev sistemi, mevsim defteri ve gardırop, meslekler</li>
+            <li>Yaklaşık 4 kat büyük harita, 30 Kronit Kapısı</li>
+            <li>4 kasaba + 4 kamp, 8 zindan + 2 baskın</li>
+          </ul>
+        </div>
+      </div>
+      <p class="note">Ayrıntılar: <a href="https://github.com/RoyalFlushTRx/XalascoUniverse/blob/main/Yol_Haritasi.md">Yol haritası</a> ·
+         <a href="https://github.com/RoyalFlushTRx/XalascoUniverse/blob/main/Gelisim_Gunlugu.md">Gelişim günlüğü</a></p>
+    </section>
+  </main>
 
   <footer>
-    Müzik: "Heroic Age" · Kevin MacLeod (<a href="https://incompetech.com">incompetech.com</a>) ·
-    <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> lisansıyla.
+    <p><strong>Xalasco: Kronit Çağı</strong> · © 2026 RoyalFlush. Tüm hakları saklıdır. Oyunun kaynak kodu ve dosyaları gizlidir.</p>
+    <p>Fragman müziği: "Heroic Age" · Kevin MacLeod (<a href="https://incompetech.com">incompetech.com</a>) ·
+       <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> lisansıyla.</p>
   </footer>
-</main>
+</div>
+
+<dialog class="lb" id="lb" aria-label="Görsel görüntüleyici">
+  <button class="x" type="button" aria-label="Kapat">×</button>
+  <button class="prev" type="button" aria-label="Önceki görsel">‹</button>
+  <button class="next" type="button" aria-label="Sonraki görsel">›</button>
+  <p aria-live="polite" aria-atomic="true"></p>
+</dialog>
+
+<script>
+(function () {
+  var lb = document.getElementById('lb');
+  if (!lb || typeof lb.showModal !== 'function') return; // no <dialog>: links simply open the full image
+  var links = Array.prototype.slice.call(document.querySelectorAll('a[data-cap]'));
+  var cap = lb.querySelector('p'), img = lb.insertBefore(document.createElement('img'), cap), i = 0, opener = null;
+  function show(n) {
+    i = (n + links.length) % links.length;
+    var a = links[i];
+    img.src = a.getAttribute('href');
+    img.alt = a.querySelector('img') ? a.querySelector('img').alt : '';
+    cap.textContent = a.getAttribute('data-cap') + '  ·  ' + (i + 1) + ' / ' + links.length;
+    var next = links[(i + 1) % links.length];
+    (new Image()).src = next.getAttribute('href');
+  }
+  links.forEach(function (a, n) {
+    a.addEventListener('click', function (e) { e.preventDefault(); opener = a; show(n); lb.showModal(); });
+  });
+  lb.querySelector('.x').addEventListener('click', function () { lb.close(); });
+  lb.querySelector('.prev').addEventListener('click', function () { show(i - 1); });
+  lb.querySelector('.next').addEventListener('click', function () { show(i + 1); });
+  lb.addEventListener('click', function (e) { if (e.target === lb) lb.close(); });
+  document.addEventListener('keydown', function (e) {
+    if (!lb.open) return;
+    if (e.key === 'ArrowLeft') { e.preventDefault(); show(i - 1); }
+    if (e.key === 'ArrowRight') { e.preventDefault(); show(i + 1); }
+  });
+  var sx = null;
+  lb.addEventListener('touchstart', function (e) { sx = e.touches.length === 1 ? e.touches[0].clientX : null; }, { passive: true });
+  lb.addEventListener('touchcancel', function () { sx = null; }, { passive: true });
+  lb.addEventListener('touchend', function (e) {
+    if (sx === null || e.touches.length) return;
+    var dx = e.changedTouches[0].clientX - sx; sx = null;
+    if (window.visualViewport && window.visualViewport.scale > 1.01) return;
+    if (Math.abs(dx) > 50) show(i + (dx < 0 ? 1 : -1));
+  });
+  lb.addEventListener('close', function () {
+    img.removeAttribute('src');
+    if (opener && document.contains(opener)) opener.focus({ preventScroll: true });
+  });
+})();
+</script>
 </body>
 </html>
