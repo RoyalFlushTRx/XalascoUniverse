@@ -11,12 +11,12 @@ Geliştiren: **RoyalFlush** · Durum: **Geliştirme aşamasında**
 
 ## Fragman
 
-<p align="center"><a href="https://github.com/RoyalFlushTRx/XalascoUniverse/releases/tag/fragman-v1"><img src="Ekran/fragman_kapak.jpg" alt="Xalasco MMORPG tanıtım fragmanını izle" width="100%"></a></p>
+<p align="center"><a href="https://royalflushtrx.github.io/XalascoUniverse/"><img src="Ekran/fragman_kapak.jpg" alt="Xalasco MMORPG tanıtım fragmanını izle" width="100%"></a></p>
 
 **MMORPG tanıtım fragmanı** (1:36 · 1080p · 50 FPS): tamamı oyun içi görüntülerden; açık dünya ve bölgeler, kahramanlar,
 büyüler, ordulara karşı savaşlar ve **Morvax, Entropi Tiranı** ile boss savaşı.
 
-▶ **[Fragmanı izle / indir](https://github.com/RoyalFlushTRx/XalascoUniverse/releases/tag/fragman-v1)**
+▶ **[Fragmanı tarayıcıda izle](https://royalflushtrx.github.io/XalascoUniverse/)** · [Tam kalite indir (1080p50 · 300 MB)](https://github.com/RoyalFlushTRx/XalascoUniverse/releases/tag/fragman-v1)
 
 <sub>Müzik: "Heroic Age" · Kevin MacLeod (incompetech.com) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) lisansıyla.</sub>
 
