@@ -4,6 +4,119 @@ Yeniden eskiye. "Test aşamasında" yazan işler kodda bitmiştir; oyun içi do�
 
 ---
 
+## 21 Kasım 2026
+
+**Online oyun: Xalasco Merkez, Xalasco Başlatıcı ve giriş bileti** · *test aşamasında*
+- Oyun artık arkadaşlarla internet üzerinden oynanacak biçimde kuruldu. Ev sahibinin bilgisayarı sunucu oluyor. Bağlantı, yalnız davet edilen cihazların girebildiği şifreli özel bir ağ (Tailscale) üzerinden geçiyor; oyun herkese açık değil.
+- **Xalasco Başlatıcı:**
+  - Kullanıcı adı ve parolayla giriş, kayıt ve "şifremi unuttum".
+  - Her yeni sürümde oyunu kendisi güncelliyor: yalnız değişen parçaları indiriyor ve yarıda kalan indirmeyi kaldığı yerden sürdürüyor. **Onar** bozuk dosyaları yeniden indiriyor.
+  - Başlatıcı kendini de güncelliyor.
+- **Xalasco Merkez:** hesapları, güncellemeleri ve haberleri dağıtan küçük sunucu. Parolalar hiçbir yerde düz yazılmıyor, tuzlanıp özetlenerek saklanıyor. Hatalı giriş denemeleri sınırlı.
+- **Giriş bileti:**
+  - **OYNA**'ya basınca başlatıcı tek kullanımlık, iki dakika geçerli, imzalı bir bilet alıyor.
+  - Oyun sunucusu yalnız geçerli bileti olan oyuncuyu içeri alıyor.
+  - Aynı hesapla ikinci bir yerden girilince eski oturum kapanıyor.
+- Oyunda **Sunucuya Katıl** ve **Sunucu Kur** menüsü var. Sunucu pencere açmadan arka planda da çalışabiliyor.
+- Giriş yolu uçtan uca denendi: geçerli bilet kabul edildi, kullanılmış ve eksik bilet reddedildi. Paketli oyunla tam tur sırada.
+
+| Merkez'e bağlanma | Giriş |
+|:---:|:---:|
+| <img src="Ekran/90_baslatici_merkez.jpg" alt="Başlatıcı: Merkez adresi"> | <img src="Ekran/90_baslatici_giris.jpg" alt="Başlatıcı: giriş ekranı"> |
+| **Güncelleme indiriliyor** | **Oyun güncel** |
+| <img src="Ekran/90_baslatici_indirme.jpg" alt="Başlatıcı: yalnız değişen parçaları indiriyor"> | <img src="Ekran/90_baslatici_oyna.jpg" alt="Başlatıcı: OYNA"> |
+
+**Kuvvetler ve alanlar (altyapı)** · *test aşamasında*
+- Çekim kuyuları, itme dalgaları, savuran girdaplar ve yerçekimini değiştiren alanlar için ortak bir kuvvet sistemi yazıldı.
+- Üst üste binen kuvvetler toplanıyor ve bir tavanla sınırlanıyor. Yerçekimi azaltılabiliyor, ters çevrilebiliyor; süzülme sağlanabiliyor.
+- Yeni sınıfların yetenekleri bunun üstüne kurulacak. Otomatik testlerin hepsini geçti; oyunda açılması sırada.
+
+**Sırada: sosyal sistemler ve sesli sohbet** · *yazılıyor*
+- Beş kişilik grup, fısıltı, arkadaş ve engel listesi.
+- Oyuncuya sağ tıklayınca açılan menü ve grup çerçeveleri.
+- İki adımlı onaylı doğrudan takas.
+- Her yerde düello ve ekipman inceleme.
+- Yakındakiler ve grup için sesli sohbet.
+
+## 20 Kasım 2026
+
+**Hikâye genişledi: yedi bölüm ve sinematikler** · *test aşamasında*
+- Ana hikâye yedi bölüme çıktı ve iki perdeye ayrıldı: **Perde I · Son Vuruş** ve **Perde II · Ayarsız Kalp**. Önsözden sonra karakola varış, ardından her bölümün açılışında ve dönüm noktasında anlatımlı kısa sinematikler geliyor: Ayna Gölü'ndeki görü, **Kristal Yankılar**, taçlı ismin açığa çıkışı, **Fırtınanın Gözü**, **Solgun Orman**, **Saatin Harabeleri**, **Kalp Saati**, yeni şafak, **Atlanan Tık** ve Arşiv Geçidi. Son sahne **Kadranis Eteği**'ne açılıyor.
+- Ayna Gölü sahnesinde anlatılan görü artık ekranda: suyun üstünde mor gözlü, taçlı bir gölge ve ardında elinde yarım bir dişli tutan soluk bir kız beliriyor; anlatının son cümlesinde ikisi de incelip dağılıyor.
+- Sinematik kamerası yere ve göle gömülmeden uçuyor. Yakın planlarda konuşan karakterin yüzüne yumuşak bir dolgu ışığı düşüyor (gece soğuk, gündüz sıcak), asa ve silah yüz kadrajına girmiyor.
+
+| Uyanış | Komutan Vela | Ayna Gölü'ndeki görü |
+|:---:|:---:|:---:|
+| <img src="Ekran/80_cine_uyanis.jpg" alt="Uyanış sineması"> | <img src="Ekran/80_cine_vela.jpg" alt="Komutan Vela Orrin"> | <img src="Ekran/80_cine_ayna.jpg" alt="Ayna Gölü'nde taçlı gölge ve kız"> |
+| **Kâhin Lio** | **Dev Kristal** | **Usta Bram** |
+| <img src="Ekran/80_cine_lio.jpg" alt="Kâhin Lio"> | <img src="Ekran/80_cine_kristal.jpg" alt="Kristal Vadi'nin kalbi"> | <img src="Ekran/80_cine_bram.jpg" alt="Usta Bram Kızılörgü"> |
+| **Yeni şafak** | **Arşivci Orin** | **Atlanan Tık** |
+| <img src="Ekran/80_cine_safak.jpg" alt="Işıltı Havzası'nda şafak"> | <img src="Ekran/80_cine_orin.jpg" alt="Arşivci Orin"> | <img src="Ekran/80_cine_tik.jpg" alt="Kalp Saati'nin atladığı tık"> |
+
+**Etkileşimli dünya** · *test aşamasında*
+- Dünyadaki eşyaların çoğu artık kullanılabiliyor. Önüne gelince **[E]** istemi çıkıyor ve bakılan eşyanın kenarı hafifçe parlıyor.
+- **Bank, devrik kütük, kesik kök:** oturulur. Kamera alçalır; herhangi bir hareket, zıplama, yetenek ya da tekrar E kaldırır. Savaşta oturulmaz, darbe alınca kalkılır.
+- **Kamp ateşi:** başına oturunca 3 saniye sonra **Ateş Başı** gelir (10 dk, kışın 15 dk). Ayazı ve kış yavaşlamasını kaldırır; otururken can iki kat hızlı dolar.
+- **Sandık, varil, konteyner, enkaz:** aranır. Karakter diz çöküp kurcalar, ganimet eşyadan fırlar. Aynı eşya oyuncu başına 30 dakikada bir aranabilir; kısa sürede çok arama yapılamaz.
+- **Pano, totem, sınır taşı, tezgâh, anten:** okunur; köşede bölgenin hikâyesinden bir not çıkar. Çadır girişinde dinlenilir, sohbete **/otur** yazınca olduğun yere oturursun.
+
+| Bankta oturmak | Kış akşamı ateş başı |
+|:---:|:---:|
+| <img src="Ekran/82_etk_bank.jpg" alt="Bankta oturan Speeder"> | <img src="Ekran/82_etk_ates.jpg" alt="Kamp ateşinin başında Ateş Başı"> |
+| **Bakılan eşya parlar** | **Varil aramak** |
+| <img src="Ekran/82_etk_odak.jpg" alt="Odaktaki varil ve Ara istemi"> | <img src="Ekran/82_etk_ara.jpg" alt="Varili arayan Panzer"> |
+
+**Efsanevi silahlar** · *test aşamasında*
+- On iki silah türünün her birine ayrı bir efsanevi model yapıldı: asa, değnek, küre, kitap, kılıç, hançer, teber, çakram, çekiç, balta, balyoz ve kol topu. Her birinin kendi silueti, parlayan bir çekirdeği, dönen bir hâlesi ve parçacık izi var.
+- Tasarımlar MMORPG'lerin efsanevi silah anlayışından yola çıktı: uzaktan tanınan bir siluet, tek bir parlak odak noktası, sade bir sap ve hareketli bir süs.
+- Sıradan silahlar da artık birbirine benzemiyor: altı ayrı asa stili var ve her silah türünün birden çok tasarımı oyunda.
+
+| Asa | Küre | Kitap |
+|:---:|:---:|:---:|
+| <img src="Ekran/77_efsane_asa.jpg" alt="Efsanevi asa"> | <img src="Ekran/77_efsane_kure.jpg" alt="Efsanevi küre"> | <img src="Ekran/77_efsane_kitap.jpg" alt="Efsanevi kitap"> |
+| **Çakram** | **Balyoz** | **Kılıç** |
+| <img src="Ekran/77_efsane_cakram.jpg" alt="Efsanevi çakram"> | <img src="Ekran/77_efsane_balyoz.jpg" alt="Efsanevi balyoz"> | <img src="Ekran/77_efsane_kilic.jpg" alt="Efsanevi kılıç"> |
+
+<p align="center"><img src="Ekran/76_asa_stilleri.jpg" alt="Altı asa stili" width="100%"><br><em>Altı asa stili</em></p>
+
+**Gerçekçi kumaş ve pelerinler** · *test aşamasında*
+- Kıyafetler metalik görünümden çıktı: keten, deri ve yırtık pelerinler gerçek kumaş dokusuyla, kumaş fiziğiyle dalgalanıyor. Eski parçalar eşya olarak oyunda kaldı.
+
+| Speeder önden | Timex arkadan | Yırtık pelerin |
+|:---:|:---:|:---:|
+| <img src="Ekran/75_kumas_speeder_on.jpg" alt="Speeder kumaş kıyafet"> | <img src="Ekran/75_kumas_timex_arka.jpg" alt="Timex pelerin arkadan"> | <img src="Ekran/75_kumas_pelerin_yirtik.jpg" alt="Yırtık pelerin"> |
+
+**Doğa: yapraklı ağaçlar ve uçan adalar** · *test aşamasında*
+- Ağaç taçları tek bir küre yerine binlerce yapraktan oluşuyor; çamlar dal dal, iğne iğne yeniden yapıldı. Rüzgârda yaprak uçları sallanıyor, sonbaharda renk değiştiriyor.
+- Uçan adaların alt yüzü kaya katmanlarıyla yontuldu; üstlerinde küçük ağaçlar, altlarında sarkan kökler var.
+
+| Çayır | Uçan adalar |
+|:---:|:---:|
+| <img src="Ekran/81_agac_cayir.jpg" alt="Yapraklı çayır ağaçları"> | <img src="Ekran/81_agac_adalar.jpg" alt="Ağaçlı uçan adalar"> |
+| **Çam ormanı** | **Sonbahar** |
+| <img src="Ekran/81_agac_cam.jpg" alt="Çam ağaçları"> | <img src="Ekran/81_agac_sonbahar.jpg" alt="Sonbahar ağaçları"> |
+
+**Yüzler, saçlar ve nişan** · *test aşamasında*
+- Moblar artık boş boş bakmıyor: yakın planda gözleri açık ve dikkatli. Kukuletaları mat deri, altlarında saç var.
+- Karakoldaki NPC'lere saç eklendi.
+- Serbest nişan: sağ tıkla omuz kamerasına geçilip nişangâhla hedef alınabiliyor.
+
+| Kukuletalı kâhin | Timex nişan alırken |
+|:---:|:---:|
+| <img src="Ekran/78_yuz_mob_gun.jpg" alt="Solgun Kâhin'in yüzü yakından"> | <img src="Ekran/79_nisan_timex.jpg" alt="Timex serbest nişan"> |
+
+**Gerçek uçuşlu mermiler (altyapı)** · *test aşamasında*
+- Oklar, cıvatalar ve büyü mermileri artık anında isabet etmek yerine gerçekten uçabiliyor. Yerçekimiyle düşüyor, yan rüzgârla sürükleniyor ve uzakta güç kaybediyor; Vael gecelerinde düşüş azalıyor.
+- Çekim kuyuları ve zaman alanları mermiyi bükebiliyor, yavaşlatabiliyor ya da yörüngesine alabiliyor. Kalkanlar mermiyi durdurabiliyor ya da geri sektirebiliyor.
+- Sunucu her atışı kendisi hesaplıyor; oyuncunun ekranındaki mermi aynı yolu izliyor. Gecikmeli oyuncu da hedefini gördüğü yerde vurabiliyor.
+- Arbalist ve Gravitor bu altyapının üstüne kurulacak. Şimdilik oyunda açık değil; Kâhin'in büyü mermisi deneme ayarıyla bu yoldan uçabiliyor.
+
+**Test altyapısı**
+- Fotoğraf turuna hikâye sinematikleri, mob yüzleri, efsanevi silahlar ve etkileşim sahneleri eklendi. Etkileşim için 34 yeni otomatik denetim yazıldı; hepsi geçti.
+- Mermi altyapısı için 38 otomatik denetim yazıldı (düşüş ve rüzgâr sayıları, isabet, delme, kalkan, alan bükmesi, ağ eşitliği); hepsi geçti.
+
+---
+
 ## 19 Kasım 2026
 
 **Cryon: altı yetenek ve ilk ulti oyunda** · *test aşamasında*

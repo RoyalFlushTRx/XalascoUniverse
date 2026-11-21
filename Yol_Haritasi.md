@@ -72,9 +72,15 @@ Durum işaretleri: ✅ bitti · 🔧 sürüyor · 🧪 test aşamasında · ⏳ 
 
 | İş | Durum |
 |---|---|
+| Online altyapı: ev sahipli sunucu, hesaplar, giriş bileti | 🧪 |
+| Xalasco Başlatıcı (giriş, otomatik güncelleme) | 🧪 |
+| Grup, fısıltı, arkadaş ve engel listesi | 🔧 |
+| Doğrudan takas | 🔧 |
+| Düello ve ekipman inceleme | 🔧 |
+| Sesli sohbet (yakındakiler ve grup) | 🔧 |
 | Lonca ve grup bulucu | ⏳ |
 | Pazar / borsa | ⏳ |
-| Arena ve düello | ⏳ |
+| Arena | ⏳ |
 | Ev sistemi | ⏳ |
 | Mevsim defteri ve gardırop | ⏳ |
 | Meslekler | ⏳ |

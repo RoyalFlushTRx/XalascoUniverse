@@ -37,12 +37,13 @@ savaşçılar ördü: **Yankılar**. Sen onlardan birisin.
 - **Yeni sınıf:** ilk yeni sınıf **Cryon** (buzul kontrol tankı) altı yeteneği ve **Ayaz Halkası** ultisiyle test aşamasında.
 - **20 sınıflık seçim ekranı:** rol süzgeçli rozet ızgarası; yeni sınıflar hazır oldukça açılıyor.
 - **6 × 6 km'lik dünya:** 5 bölge, göl, yüzen adalar, 29 mob kampı, 9 Kronit Kapısı ile ışınlanma, hover-kızak binek.
-- **Hikâye ve görevler:** önsöz sineması, 25 görevlik ana hikâye, 26 yan görev, 9 NPC; final boss **Morvax, Entropi Tiranı**.
+- **Hikâye ve görevler:** önsöz sineması, yedi bölümlük ana hikâye ve bölüm sinematikleri, 25 görevlik ana görev zinciri, 26 yan görev, 9 NPC; final boss **Morvax, Entropi Tiranı**.
+- **Etkileşimli dünya:** banklarda oturma, kamp ateşinde ısınma, sandık ve varil arama, pano ve totem okuma.
 - **Yaşayan dünya:** dört mevsim, gün/gece döngüsü, gerçek 3B kar ve yağmur, fırtına ve şimşek, kışın donan göl, Zaman Fırtınası dünya olayı.
 - **MMORPG sistemleri:** envanter, ganimet ve nadirlik, + basma, üretim, Yankı yetenek ağacı, yetenek kitabı, başarımlar, günlük görevler, dünya haritası.
-- **Karakterler:** gerçekçi karakter oluşturma ve berber, kumaş pelerinler, set zırhları.
-- **Çok oyunculu:** sunucu otoriteli ağ yapısı, Gameplay Ability System tabanlı savaş.
-- **Görsel:** oyun içi odak efekti (alan derinliği) — Kapalı / Hafif / Sinematik.
+- **Karakterler:** gerçekçi karakter oluşturma ve berber, gerçek kumaş kıyafet ve pelerinler, set zırhları, her silah türü için efsanevi modeller.
+- **Online:** ev sahibinin bilgisayarında çalışan sunucu; arkadaşlar şifreli özel bir ağ üstünden bağlanıyor. Kullanıcı adı ve parolayla giriş yapan, oyunu kendisi güncelleyen **Xalasco Başlatıcı** var. Ağ yapısı sunucu otoriteli, savaş Gameplay Ability System tabanlı. Hepsi test aşamasında; grup, takas, düello ve sesli sohbet yazılıyor.
+- **Görsel:** binlerce yapraktan ağaç taçları, ağaçlı uçan adalar, oyun içi odak efekti (alan derinliği) — Kapalı / Hafif / Sinematik.
 
 ## Kahramanlar
 
@@ -85,6 +86,8 @@ Hepsi oyun içinden, otomatik fotoğraf turuyla çekildi.
 
 | | |
 |:---:|:---:|
+| <img src="Ekran/80_cine_ayna.jpg" alt="Ayna Gölü'ndeki görü"> | <img src="Ekran/82_etk_ates.jpg" alt="Kamp ateşinin başında"> |
+| Hikâye sineması: Ayna Gölü'ndeki görü | Kış akşamı kamp ateşinin başında |
 | <img src="Ekran/03_meadow_golden_panzer.jpg" alt="Işıltı Çayırı, altın saat"> | <img src="Ekran/12_clock_ruins.jpg" alt="Saat Harabeleri"> |
 | Işıltı Çayırı, altın saat | Saat Harabeleri, alçak güneş |
 | <img src="Ekran/09_crystal_heart.jpg" alt="Kristal Vadi gece"> | <img src="Ekran/23_planet_vael.jpg" alt="Vael'in doğuşu"> |
@@ -99,6 +102,8 @@ Hepsi oyun içinden, otomatik fotoğraf turuyla çekildi.
 | Ganimet: nadirliğe göre ışık sütunları | Karakter oluşturma |
 | <img src="Ekran/15_world_map.jpg" alt="Dünya haritası"> | <img src="Ekran/29_inventory.jpg" alt="Envanter"> |
 | Dünya haritası, beş bölge | Envanter ve karakter paneli |
+| <img src="Ekran/90_baslatici_giris.jpg" alt="Xalasco Başlatıcı giriş"> | <img src="Ekran/90_baslatici_oyna.jpg" alt="Xalasco Başlatıcı ana ekran"> |
+| Xalasco Başlatıcı: hesapla giriş | Başlatıcı: haberler, sürüm, OYNA |
 
 ## İlerleme
 
