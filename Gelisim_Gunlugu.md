@@ -4,6 +4,38 @@ Yeniden eskiye. "Test aşamasında" yazan işler kodda bitmiştir; oyun içi do�
 
 ---
 
+## 22 Kasım 2026
+
+**Sosyal sistemler** · *test aşamasında*
+- **Sohbet:** yeni Bölge, Grup ve Fısıltı kanalları; `/f`, `/c`, `/g`, `/davet`, `/arkadas`, `/engelle` gibi komutlar.
+  Boşluklu adlar da yazılabiliyor.
+- **Grup:** beş kişi, ekranda grup çerçeveleri. Yakındaki grup üyeleri mob öldürünce deneyim, görev ilerlemesi ve kendi
+  ganimetlerini alıyor.
+- **Arkadaş ve engel listesi:** **O** tuşuyla açılan Sosyal penceresi; engellenen oyuncunun mesajları ve istekleri hiç
+  görünmüyor.
+- Bir oyuncunun adına ya da çerçevesine sağ tıklayınca açılan menü; grup, takas ve düello istekleri ekranda kart olarak geliyor.
+- **Doğrudan takas:** sekiz yuva ve altın; iki adımlı onay (kilitle, sonra onayla). Herhangi bir değişiklik iki onayı da
+  sıfırlıyor. Takas ya bütünüyle gerçekleşiyor ya da hiç: yarıda bir şey olursa iki çanta da eski hâline dönüyor.
+- **Düello:** iki oyuncunun arasına dikilen bayrak, "3, 2, 1, Başla!", 40 m'lik alan. Öldürücü vuruş canı 1'de bırakıyor,
+  kimse ölmüyor; bitince can ve mana geri geliyor. Dışarıdan kimse karışamıyor.
+- **Ekipman inceleme:** oyuncunun kuşandıkları, seviyesi ve sınıfı.
+- Hepsi sunucu otoriteli. Her istek sunucuda denetleniyor ve hızı sınırlı.
+
+**Sesli sohbet** · *test aşamasında*
+- İki kanal: **Yakın** (30 m içindekiler, uzaklaştıkça kısılıyor) ve **Grup** (uzaklık sınırı yok).
+- Bas-konuş (Fare 4 / Fare 5 ya da Sol / Sağ Ctrl) ya da açık mikrofon.
+- Konuşanın isminde halka, grup çerçevesinde nokta; oyuncuya sağ tıklayıp **Sesini kapat**.
+- Ayarlar > Ses: sesli sohbet açık / kapalı, kip, ses düzeyi, mikrofon kazancı ve eşiği, **Mikrofonu Dene**.
+- Ses oyunun kendi bağlantısından gidiyor, ek bir ayar gerekmiyor.
+
+**Paketli oyun ve kurulum paketi** · *test aşamasında*
+- Oyun ilk kez dağıtılabilir biçimde paketlendi (1,3 GB). İlk denemede ortaya çıkan, yalnız paketli oyunda görülen bir çökme
+  giderildi.
+- Tam tur denendi: başlatıcının aldığı giriş biletiyle paketli oyun sunucuya bağlandı.
+- Oynamak isteyenler için başlatıcı kurulum paketi bu depoya kondu: **[Nasıl oynanır](README.md#nasıl-oynanır)**.
+
+---
+
 ## 21 Kasım 2026
 
 **Online oyun: Xalasco Merkez, Xalasco Başlatıcı ve giriş bileti** · *test aşamasında*

@@ -42,8 +42,22 @@ savaşçılar ördü: **Yankılar**. Sen onlardan birisin.
 - **Yaşayan dünya:** dört mevsim, gün/gece döngüsü, gerçek 3B kar ve yağmur, fırtına ve şimşek, kışın donan göl, Zaman Fırtınası dünya olayı.
 - **MMORPG sistemleri:** envanter, ganimet ve nadirlik, + basma, üretim, Yankı yetenek ağacı, yetenek kitabı, başarımlar, günlük görevler, dünya haritası.
 - **Karakterler:** gerçekçi karakter oluşturma ve berber, gerçek kumaş kıyafet ve pelerinler, set zırhları, her silah türü için efsanevi modeller.
-- **Online:** ev sahibinin bilgisayarında çalışan sunucu; arkadaşlar şifreli özel bir ağ üstünden bağlanıyor. Kullanıcı adı ve parolayla giriş yapan, oyunu kendisi güncelleyen **Xalasco Başlatıcı** var. Ağ yapısı sunucu otoriteli, savaş Gameplay Ability System tabanlı. Hepsi test aşamasında; grup, takas, düello ve sesli sohbet yazılıyor.
+- **Online:** ev sahibinin bilgisayarında çalışan sunucu; arkadaşlar şifreli özel bir ağ üstünden bağlanıyor. Kullanıcı adı ve parolayla giriş yapan, oyunu kendisi güncelleyen **Xalasco Başlatıcı** var. Ağ yapısı sunucu otoriteli, savaş Gameplay Ability System tabanlı. Beş kişilik grup, fısıltı, arkadaş ve engel listesi, onaylı doğrudan takas, düello, ekipman inceleme ve yakındakiler / grup için sesli sohbet de var. Hepsi test aşamasında.
 - **Görsel:** binlerce yapraktan ağaç taçları, ağaçlı uçan adalar, oyun içi odak efekti (alan derinliği) — Kapalı / Hafif / Sinematik.
+
+## Nasıl oynanır
+
+Xalasco herkese açık bir sunucuda değil, **ev sahibinin bilgisayarında** çalışan özel bir sunucuda oynanır. Oynamak için
+ev sahibinin daveti gerekir.
+
+1. Ev sahibinden **Tailscale daveti**, **Merkez adresi** ve varsa **davet kodu** iste. [Tailscale](https://tailscale.com/download)'i kur ve davetle ağa katıl.
+2. **[XalascoBaslatici.zip](Kurulum/XalascoBaslatici.zip)** dosyasını indir, bir klasöre çıkar ve `XalascoBaslatici.exe`'yi aç.
+   Windows uyarırsa: "Ek bilgi" → "Yine de çalıştır".
+3. Merkez adresini yaz, **Kayıt ol** sekmesinde kullanıcı adı ve parola belirle.
+4. **KUR**'a bas, indirme bitince **OYNA**.
+
+Zip'te yalnız başlatıcı var (oyun dosyası ve sunucu adresi yok). Oyun, giriş yaptıktan sonra ev sahibinin sunucusundan
+iner ve her güncellemede kendiliğinden yenilenir. Ayrıntılar zip'teki `BENIOKU.txt` dosyasında.
 
 ## Kahramanlar
 

@@ -74,10 +74,11 @@ Durum işaretleri: ✅ bitti · 🔧 sürüyor · 🧪 test aşamasında · ⏳ 
 |---|---|
 | Online altyapı: ev sahipli sunucu, hesaplar, giriş bileti | 🧪 |
 | Xalasco Başlatıcı (giriş, otomatik güncelleme) | 🧪 |
-| Grup, fısıltı, arkadaş ve engel listesi | 🔧 |
-| Doğrudan takas | 🔧 |
-| Düello ve ekipman inceleme | 🔧 |
-| Sesli sohbet (yakındakiler ve grup) | 🔧 |
+| Grup, fısıltı, arkadaş ve engel listesi | 🧪 |
+| Doğrudan takas | 🧪 |
+| Düello ve ekipman inceleme | 🧪 |
+| Sesli sohbet (yakındakiler ve grup) | 🧪 |
+| Oyuncu kurulum paketi (başlatıcı, vitrin deposunda) | 🧪 |
 | Lonca ve grup bulucu | ⏳ |
 | Pazar / borsa | ⏳ |
 | Arena | ⏳ |
