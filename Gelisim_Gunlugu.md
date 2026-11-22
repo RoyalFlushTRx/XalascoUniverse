@@ -6,6 +6,19 @@ Yeniden eskiye. "Test aşamasında" yazan işler kodda bitmiştir; oyun içi do�
 
 ## 22 Kasım 2026
 
+**Sürüm 1.0.3: doğrudan sunucuya, zorunlu güncelleme, görünen yüzler** · *test aşamasında*
+- **Yalnız çevrim içi:** oyunda sunucu kurma, adres yazma ve tek oyunculu kalktı. **OYNA** deyince oyun doğrudan sunucuya
+  bağlanır ve karakter ekranı gelir. Yeni açılış ekranı ne yapıldığını söylüyor.
+- **Kendiliğinden geri bağlanma:** sunucu yeniden başlarsa ya da bağlantı koparsa oyun yeni giriş bileti alıp kendiliğinden
+  geri giriyor; oyuncunun bir şey yapması gerekmiyor.
+- **Zorunlu güncelleme:** yeni sürüm yayınlanınca oyun geri sayıp kapanıyor, başlatıcı güncelleyip oyunu yeniden açıyor. Eski
+  sürümle giriş yok: hem hesap sunucusu bilet vermiyor hem de oyun sunucusu bağlantıyı reddediyor. Eski başlatıcı da önce
+  kendini güncelliyor.
+- **Yüzler:** karakter oluşturma ve seçme ekranında yüz artık kendi ışığıyla aydınlanıyor; yeni karakter saçsız başlamıyor.
+- **Sunucu:** yeni sürüme oyuncu yokken kendiliğinden geçiyor; çökerse yeniden açılıyor; başarısız geçişte eski sürümle kalıyor.
+- Paketli oyunla uçtan uca denendi: bilet ve giriş, sunucunun düzgün ve sert kapanmasından sonra geri bağlanma, 1.0.2'nin reddi,
+  güncelleme geri sayımı, başlatıcısız açılış.
+
 **Sürüm 1.0.2: yüzler, GM yetkisi ve tek programla sunucu** · *test aşamasında*
 - **Yüzler:** kurulan oyunda karakterlerin yüzü görünmüyordu. Yüz, göz ve canlı ifade verileri pakete eklendi; her paket artık
   yayından önce eksik varlık için denetleniyor. Timex'in bıyığındaki düz beyaz alan da giderildi.
@@ -14,7 +27,7 @@ Yeniden eskiye. "Test aşamasında" yazan işler kodda bitmiştir; oyun içi do�
   doğrulanmış giriş biletine göre veriliyor.
 - **Sunucu güvenliği:** ağ üzerinden gelen geliştirici komutları kapatıldı; hız hilesine karşı hareket zamanı denetimi eklendi
   (bağlantısı takılan oyuncu cezalanmıyor).
-- **Xalasco Sunucu:** ev sahibi için tek program. Çift tıklayınca hesap sunucusunu ve oyun sunucusunu doğru sırayla açıyor;
+- **Xalasco Sunucu:** sunucu bilgisayarı için tek program. Çift tıklayınca hesap sunucusunu ve oyun sunucusunu doğru sırayla açıyor;
   durum, hesaplar, GM'ler, ayarlar ve günlük tek pencerede.
 - **Sesli sohbet:** `/sustur` komutları, Sosyal penceresinde ses listesi. Konuşanın kimliği sunucuda doğrulanıyor.
 - Paketli oyunla uçtan uca denendi: gerçek giriş biletiyle kurucu GM oldu, ikinci oyuncu olmadı; canlı GM verme ve alma çalıştı.
@@ -52,7 +65,7 @@ Yeniden eskiye. "Test aşamasında" yazan işler kodda bitmiştir; oyun içi do�
 ## 21 Kasım 2026
 
 **Online oyun: Xalasco Merkez, Xalasco Başlatıcı ve giriş bileti** · *test aşamasında*
-- Oyun artık arkadaşlarla internet üzerinden oynanacak biçimde kuruldu. Ev sahibinin bilgisayarı sunucu oluyor. Bağlantı, yalnız davet edilen cihazların girebildiği şifreli özel bir ağ (Tailscale) üzerinden geçiyor; oyun herkese açık değil.
+- Oyun artık internet üzerinden oynanacak biçimde kuruldu. Kapalı testte bağlantı, yalnız davet edilen cihazların girebildiği şifreli özel bir ağ (Tailscale) üzerinden geçiyor; herkese açılış sonraki adım.
 - **Xalasco Başlatıcı:**
   - Kullanıcı adı ve parolayla giriş, kayıt ve "şifremi unuttum".
   - Her yeni sürümde oyunu kendisi güncelliyor: yalnız değişen parçaları indiriyor ve yarıda kalan indirmeyi kaldığı yerden sürdürüyor. **Onar** bozuk dosyaları yeniden indiriyor.

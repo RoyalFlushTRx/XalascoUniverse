@@ -42,23 +42,25 @@ savaşçılar ördü: **Yankılar**. Sen onlardan birisin.
 - **Yaşayan dünya:** dört mevsim, gün/gece döngüsü, gerçek 3B kar ve yağmur, fırtına ve şimşek, kışın donan göl, Zaman Fırtınası dünya olayı.
 - **MMORPG sistemleri:** envanter, ganimet ve nadirlik, + basma, üretim, Yankı yetenek ağacı, yetenek kitabı, başarımlar, günlük görevler, dünya haritası.
 - **Karakterler:** gerçekçi karakter oluşturma ve berber, gerçek kumaş kıyafet ve pelerinler, set zırhları, her silah türü için efsanevi modeller.
-- **Online:** ev sahibinin bilgisayarında çalışan sunucu; arkadaşlar şifreli özel bir ağ üstünden bağlanıyor. Kullanıcı adı ve parolayla giriş yapan, oyunu kendisi güncelleyen **Xalasco Başlatıcı** var. Ağ yapısı sunucu otoriteli, savaş Gameplay Ability System tabanlı. Beş kişilik grup, fısıltı, arkadaş ve engel listesi, onaylı doğrudan takas, düello, ekipman inceleme ve yakındakiler / grup için sesli sohbet de var. Hepsi test aşamasında.
+- **Online:** oyun yalnız çevrim içi oynanır. **OYNA** deyince doğrudan sunucuya girilir; bağlantı koparsa oyun kendiliğinden geri bağlanır. Kullanıcı adı ve parolayla giriş yapılan **Xalasco Başlatıcı** oyunu kendisi günceller; eski sürümle girilemez. Ağ yapısı sunucu otoriteli, savaş Gameplay Ability System tabanlı. Beş kişilik grup, fısıltı, arkadaş ve engel listesi, onaylı doğrudan takas, düello, ekipman inceleme ve yakındakiler / grup için sesli sohbet de var. Hepsi test aşamasında.
 - **Görsel:** binlerce yapraktan ağaç taçları, ağaçlı uçan adalar, oyun içi odak efekti (alan derinliği) — Kapalı / Hafif / Sinematik.
 
 ## Nasıl oynanır
 
-Xalasco herkese açık bir sunucuda değil, **ev sahibinin bilgisayarında** çalışan özel bir sunucuda oynanır. Oynamak için
-ev sahibinin daveti gerekir.
+Xalasco, herkese açık bir online oyun olarak hazırlanıyor. Sunucu şu an **kapalı testte**; herkese açılış bu sayfada duyurulacak.
 
-1. Ev sahibinden **Tailscale daveti**, **Merkez adresi** ve varsa **davet kodu** iste. [Tailscale](https://tailscale.com/download)'i kur ve davetle ağa katıl.
-2. **[XalascoBaslatici.zip](Kurulum/XalascoBaslatici.zip)** dosyasını indir, bir klasöre çıkar ve `XalascoBaslatici.exe`'yi aç.
+Kapalı teste katılan oyuncular için:
+
+1. **[XalascoBaslatici.zip](Kurulum/XalascoBaslatici.zip)** dosyasını indir, bir klasöre çıkar ve `XalascoBaslatici.exe`'yi aç.
    Windows uyarırsa: "Ek bilgi" → "Yine de çalıştır".
-3. Merkez adresini yaz, **Kayıt ol** sekmesinde kullanıcı adı ve parola belirle.
-4. **KUR**'a bas, indirme bitince **OYNA**. Oyun ilk açıldığında Windows Güvenlik Duvarı izin sorarsa **İptal**'e basabilirsin;
-   oynamak için izin gerekmez.
+2. Test davetinde yazan sunucu adresini gir. Kapalı test özel bir ağ ([Tailscale](https://tailscale.com/download)) üzerinden
+   yapılıyor; ağ daveti de test davetiyle gelir. Herkese açılışta bu adım kalkacak.
+3. **Kayıt ol** sekmesinde kullanıcı adı ve parola belirle.
+4. **KUR**'a bas, indirme bitince **OYNA**. Oyun doğrudan sunucuya bağlanır. İlk açılışta Windows Güvenlik Duvarı izin
+   sorarsa **İptal**'e basabilirsin; oynamak için izin gerekmez.
 
-Zip'te yalnız başlatıcı var (oyun dosyası ve sunucu adresi yok). Oyun, giriş yaptıktan sonra ev sahibinin sunucusundan
-iner ve her güncellemede kendiliğinden yenilenir. Ayrıntılar zip'teki `BENIOKU.txt` dosyasında.
+Zip'te yalnız başlatıcı var (oyun dosyası ve sunucu adresi yok). Oyun, giriş yaptıktan sonra sunucudan iner ve her
+güncellemede kendiliğinden yenilenir. Ayrıntılar zip'teki `BENIOKU.txt` dosyasında.
 
 ## Kahramanlar
 
