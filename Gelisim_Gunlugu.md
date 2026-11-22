@@ -6,6 +6,19 @@ Yeniden eskiye. "Test aşamasında" yazan işler kodda bitmiştir; oyun içi do�
 
 ## 22 Kasım 2026
 
+**Sürüm 1.0.2: yüzler, GM yetkisi ve tek programla sunucu** · *test aşamasında*
+- **Yüzler:** kurulan oyunda karakterlerin yüzü görünmüyordu. Yüz, göz ve canlı ifade verileri pakete eklendi; her paket artık
+  yayından önce eksik varlık için denetleniyor. Timex'in bıyığındaki düz beyaz alan da giderildi.
+- **GM yetkisi:** yalnız kurucu hesapta. Kurucu, F8 menüsündeki yeni **GM** sekmesinden GM ekleyip çıkarabiliyor; değişiklik
+  bağlı oyuncuya birkaç saniyede geçiyor. Yetki alınınca ölümsüzlük, hız ve görünmezlik de geri alınıyor. Karar sunucuda,
+  doğrulanmış giriş biletine göre veriliyor.
+- **Sunucu güvenliği:** ağ üzerinden gelen geliştirici komutları kapatıldı; hız hilesine karşı hareket zamanı denetimi eklendi
+  (bağlantısı takılan oyuncu cezalanmıyor).
+- **Xalasco Sunucu:** ev sahibi için tek program. Çift tıklayınca hesap sunucusunu ve oyun sunucusunu doğru sırayla açıyor;
+  durum, hesaplar, GM'ler, ayarlar ve günlük tek pencerede.
+- **Sesli sohbet:** `/sustur` komutları, Sosyal penceresinde ses listesi. Konuşanın kimliği sunucuda doğrulanıyor.
+- Paketli oyunla uçtan uca denendi: gerçek giriş biletiyle kurucu GM oldu, ikinci oyuncu olmadı; canlı GM verme ve alma çalıştı.
+
 **Sosyal sistemler** · *test aşamasında*
 - **Sohbet:** yeni Bölge, Grup ve Fısıltı kanalları; `/f`, `/c`, `/g`, `/davet`, `/arkadas`, `/engelle` gibi komutlar.
   Boşluklu adlar da yazılabiliyor.

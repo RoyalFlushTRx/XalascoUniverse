@@ -54,7 +54,8 @@ ev sahibinin daveti gerekir.
 2. **[XalascoBaslatici.zip](Kurulum/XalascoBaslatici.zip)** dosyasını indir, bir klasöre çıkar ve `XalascoBaslatici.exe`'yi aç.
    Windows uyarırsa: "Ek bilgi" → "Yine de çalıştır".
 3. Merkez adresini yaz, **Kayıt ol** sekmesinde kullanıcı adı ve parola belirle.
-4. **KUR**'a bas, indirme bitince **OYNA**.
+4. **KUR**'a bas, indirme bitince **OYNA**. Oyun ilk açıldığında Windows Güvenlik Duvarı izin sorarsa **İptal**'e basabilirsin;
+   oynamak için izin gerekmez.
 
 Zip'te yalnız başlatıcı var (oyun dosyası ve sunucu adresi yok). Oyun, giriş yaptıktan sonra ev sahibinin sunucusundan
 iner ve her güncellemede kendiliğinden yenilenir. Ayrıntılar zip'teki `BENIOKU.txt` dosyasında.
